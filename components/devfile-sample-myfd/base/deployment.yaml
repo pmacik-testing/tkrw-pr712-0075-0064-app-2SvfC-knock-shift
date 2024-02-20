@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-myfd
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0064-tenant/tkrw-pr712-0075-0064-app/devfile-sample-myfd@sha256:a72884e1e14dce941a8bdce6ad8bd2a0458f4134cc5b62410ab0c26bda90dce9
         name: my-nodejs
         ports:
         - containerPort: 3001
